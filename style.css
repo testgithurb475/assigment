@@ -1,0 +1,224 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5a5f;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff5a5f;
+}
+
+.auth {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn,
+.signup-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.login-btn {
+    color: #333;
+}
+
+.signup-btn {
+    color: #ff5a5f;
+    border: 1px solid #ff5a5f;
+}
+
+.signup-btn:hover {
+    background-color: #ff5a5f;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .auth {
+        margin-top: 10px;
+    }
+}
+
+.net {
+    margin-top: 3%;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.search-btn:hover {
+    background-color: #e04d4b;
+    margin: 30px auto;
+}
+
+.search-bar2 {
+    padding: 0 7%;
+}
+
+.header {
+    font-size: 4vh;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.search-bar2 {
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-bar2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-bar2 form input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.search-bar2 form button {
+    background: #ff385C;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    border 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-bar2 form button img {
+    width: 15px;
+    margin-top: 7px;
+}
+
+.search-bar2 input {
+    flex: 1;
+}
+
+.search-bar2 form label {
+    font-weight: 600;
+}
+
+
+.pic {
+    height: 20px;
+    width: 20px;
+    color: #ff385C
+}
+
+.maincard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 23%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px 30px 0 0;
+}
+
+.card .content {
+    text-align: center;
+    padding: 10px;
+}
+
+.card .content button {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card .content button:hover {
+    background-color: gray;
+}
